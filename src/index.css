@@ -344,6 +344,57 @@ body {
   justify-content: center;
 }
 
+/* meadia query */
+
+@media (max-width: 768px) {
+  html {
+    font-size: 50%;
+  }
+
+  .nav-bar {
+    grid-template-columns: 1fr;
+    padding: 1.6rem;
+    height: auto;
+    flex-direction: column;
+    gap: 1.6rem;
+  }
+
+  .search {
+    width: 100%;
+  }
+
+  .main {
+    flex-direction: column;
+    align-items: center;
+    gap: 1.6rem;
+    margin-top: 1.6rem;
+  }
+
+  .box {
+    width: 100%;
+    max-width: none;
+    min-height: 48rem;
+  }
+
+  .list li {
+    padding: 1.2rem 2rem;
+  }
+
+  .logo span {
+    font-size: 2.4rem;
+  }
+
+  .logo h1 {
+    font-size: 1.8rem;
+  }
+
+  .summary,
+  .details,
+  .details-overview {
+    padding: 2rem;
+  }
+}
+
 /*
 SPACING SYSTEM (px)
 2 / 4 / 8 / 12 / 16 / 24 / 32 / 40 / 48 / 64 / 80 / 96 / 128
